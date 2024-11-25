@@ -30,10 +30,15 @@ Launch it.
 ## Working with it
 There are 5 commands to manage the rakbot. These are for setting the server, username, start, stop and info.
 Type the command inside the console to use it.
+
 `@start` - Starts the rakbot and automatically connects to the server with specified username.
+
 `@quit` - Stops the rakbot.
+
 `@sethost <ip>` - Sets the server to the specified server IP.
+
 `@setuser <name>` - Sets the player to be targeted.
+
 `@info` - Outputs all the information (server and user).
 
 -------------------------------
@@ -71,7 +76,11 @@ goto loop
 Напишите команду в консоль чтобы ее выполнить.
 
 `@start` - Начинает работу ракбота, автоматически подключается к серверу с ником игрока.
+
 `@quit` - Останавливает ракбота.
+
 `@sethost <ip>` - Устанавливает сервер.
+
 `@setuser <name>` - Устанавливает игрока, который будет заракбочен.
+
 `@info` - Выводит информацию настроек ракбота (сервер и игрок).
