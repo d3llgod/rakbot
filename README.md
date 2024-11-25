@@ -1,4 +1,5 @@
 # d3ll rakbot
+## Installation
 To start working with it, download the latest version of Node.JS and the following packages in the project folder.
 ```
 npm i cluster 
@@ -26,8 +27,18 @@ goto loop
 ```
 Launch it.
 
+## Working with it
+There are 5 commands to manage the rakbot. These are for setting the server, username, start, stop and info.
+Type the command inside the console to use it.
+`@start` - Starts the rakbot and automatically connects to the server with specified username.
+`@quit` - Stops the rakbot.
+`@sethost <ip>` - Sets the server to the specified server IP.
+`@setuser <name>` - Sets the player to be targeted.
+`@info` - Outputs all the information (server and user).
+
 -------------------------------
 # d3ll ракбот
+## Установка
 Чтобы начать работать с ним, установите последнюю версию Node.JS и эти библиотеки в папке проекта.
 ```
 npm i cluster 
@@ -54,3 +65,13 @@ pause
 goto loop
 ```
 Запустите его.
+
+## Инструкции
+В ракботе есть 5 команд для его работы. Это установка сервера, игрока, старт, остановка и информация.
+Напишите команду в консоль чтобы ее выполнить.
+
+`@start` - Начинает работу ракбота, автоматически подключается к серверу с ником игрока.
+`@quit` - Останавливает ракбота.
+`@sethost <ip>` - Устанавливает сервер.
+`@setuser <name>` - Устанавливает игрока, который будет заракбочен.
+`@info` - Выводит информацию настроек ракбота (сервер и игрок).
